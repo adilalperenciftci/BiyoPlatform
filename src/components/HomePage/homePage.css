@@ -1,0 +1,33 @@
+.home-page {
+    background-image: url('https://img.freepik.com/free-vector/futuristic-science-lab-background_23-2148505015.jpg?w=1060&t=st=1703175196~exp=1703175796~hmac=6ceda98d4dbbb8021ac37f7048301e2b67c5fc3e420ea2e20a514ebf59efbd95');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Tam ekran yüksekliği */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Beyaz yazı rengi */
+    text-align: center;
+    padding: 20px;
+}
+
+/* homePage.css */
+
+.home-page {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

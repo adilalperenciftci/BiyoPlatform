@@ -1,0 +1,29 @@
+/* Genel stil ayarları */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f4f4; /* Arka plan rengi */
+  color: #333; /* Temel yazı rengi */
+}
+
+/* Linklerin genel stillemesi */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Navbar ve Footer için margin ayarları */
+.navbar, .footer {
+  margin-bottom: 20px;
+}
+
+/* Ana içerik için padding */
+.main-content {
+  padding: 20px;
+}
+
+/* Responsive tasarım ve diğer genel stillemeler buraya eklenebilir */
